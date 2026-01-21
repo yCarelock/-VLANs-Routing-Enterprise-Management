@@ -62,3 +62,23 @@ Figure 6 - Inter-VLAN Routing Verification
 <img width="818" height="714" alt="image" src="https://github.com/user-attachments/assets/9a34a3cd-eede-4b2b-9458-5a8d536b71df" />
 
 Verified router-on-a-stick configuration with multiple VLAN subinterfaces in an up/up state using show ip interface brief, confirming successful inter-VLAN routing.
+
+
+Appendix A — Completed Network Topology
+<img width="800" height="482" alt="image" src="https://github.com/user-attachments/assets/f327b2c6-9a6c-4871-9f54-b7566c02828c" />
+
+This figure represents the final operational state of the network after completing VLAN segmentation, trunk configuration, Layer 2 troubleshooting, and inter-VLAN routing.
+
+The topology view confirms:
+
+All network devices are powered on and operational
+
+Physical and logical connectivity is fully established
+
+Inter-switch trunk links are active
+
+End hosts and infrastructure components are correctly integrated into the topology
+
+This visual serves as a high-level confirmation that the network is stable following configuration and verification steps shown in subsequent figures.
+
+While detailed validation is demonstrated through CLI outputs (VLAN status, trunking, routing, and services), this topology view provides an at-a-glance representation of the completed, functional network design.
