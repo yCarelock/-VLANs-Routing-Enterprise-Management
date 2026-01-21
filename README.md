@@ -14,6 +14,11 @@ Figure 1 – VLAN Design & Segmentation
 
 Verified VLAN creation and access-port assignment using show vlan brief, confirming correct segmentation and server placement in DMZ (VLAN 30) and Management (VLAN 99).
 
+Figure 2 — 802.1Q Trunk Configuration & Verification
+<img width="1132" height="277" alt="image" src="https://github.com/user-attachments/assets/8cf141ea-83f3-46de-afe9-8a72e478f40a" />
+
+Verified 802.1Q trunk configuration and allowed VLANs between switches using show interfaces trunk, confirming VLAN propagation across the network.
+
 Figure 6 - Inter-VLAN Routing Verification
 <img width="818" height="714" alt="image" src="https://github.com/user-attachments/assets/9a34a3cd-eede-4b2b-9458-5a8d536b71df" />
 
