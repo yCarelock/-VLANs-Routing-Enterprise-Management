@@ -19,6 +19,11 @@ Figure 2 — 802.1Q Trunk Configuration & Verification
 
 Verified 802.1Q trunk configuration and allowed VLANs between switches using show interfaces trunk, confirming VLAN propagation across the network.
 
+Figure 4 — Centralized Logging & Time Synchronization
+<img width="746" height="117" alt="image" src="https://github.com/user-attachments/assets/da307c31-c631-4469-a295-c6b829d43b77" />
+
+Verified centralized Syslog and NTP configuration on the router using show running-config, confirming integration with the management server for monitoring and time synchronization.
+
 Figure 6 - Inter-VLAN Routing Verification
 <img width="818" height="714" alt="image" src="https://github.com/user-attachments/assets/9a34a3cd-eede-4b2b-9458-5a8d536b71df" />
 
