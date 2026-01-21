@@ -28,6 +28,35 @@ Figure 4 — Centralized Logging & Time Synchronization
 <img width="746" height="117" alt="image" src="https://github.com/user-attachments/assets/da307c31-c631-4469-a295-c6b829d43b77" />
 
 Verified centralized Syslog and NTP configuration on the router using show running-config, confirming integration with the management server for monitoring and time synchronization.
+Figure 5 — Layer 2 / Management VLAN Troubleshooting & Validation
+
+During implementation, I encountered multiple Layer 2–related issues while validating trunking and management access across switches.
+
+Issue Observed
+
+Switch ports intermittently transitioned between up/down
+
+Management VLAN (VLAN 99) initially appeared down/down
+
+Cisco IOS generated Spanning Tree Protocol (STP) PVID inconsistency messages when trunking was introduced
+
+Verification commands failed when executed from incorrect IOS configuration modes
+
+These symptoms indicated a mismatch between port mode configuration, VLAN assignment, and STP expectations on interconnected switch ports.
+
+Resolution
+
+Once trunk and access port configurations were aligned:
+
+STP stabilized and stopped blocking interfaces
+
+VLAN 99 transitioned to up/up
+
+Trunk links successfully passed all required VLANs (10, 20, 30, 40, 99)
+
+Layer 2 forwarding normalized across the topology
+
+This confirmed the network was ready for Layer 3 inter-VLAN routing, which was validated in the subsequent step.
 
 Figure 6 - Inter-VLAN Routing Verification
 <img width="818" height="714" alt="image" src="https://github.com/user-attachments/assets/9a34a3cd-eede-4b2b-9458-5a8d536b71df" />
