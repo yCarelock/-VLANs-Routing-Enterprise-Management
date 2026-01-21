@@ -19,6 +19,11 @@ Figure 2 — 802.1Q Trunk Configuration & Verification
 
 Verified 802.1Q trunk configuration and allowed VLANs between switches using show interfaces trunk, confirming VLAN propagation across the network.
 
+Figure 3 – STP Trunk Inconsistency Encountered
+<img width="1929" height="1301" alt="image" src="https://github.com/user-attachments/assets/33d1d8bc-884e-478f-abe1-81ffedc7c605" />
+
+Encountered an STP PVID inconsistency caused by mismatched trunk configuration, resulting in temporary port blocking. Issue was resolved by aligning trunk modes and allowed VLANs across switches.
+
 Figure 4 — Centralized Logging & Time Synchronization
 <img width="746" height="117" alt="image" src="https://github.com/user-attachments/assets/da307c31-c631-4469-a295-c6b829d43b77" />
 
