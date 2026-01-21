@@ -9,6 +9,11 @@ Figure 0 – Network Architecture Overview
 
 Logical network topology showing segmented VLAN design with router-on-a-stick routing, access and distribution switches, DMZ and management servers, and isolated user groups.
 
+Figure 1 – VLAN Design & Segmentation
+<img width="1084" height="458" alt="image" src="https://github.com/user-attachments/assets/209c8635-0635-4154-8e05-94177ff4e661" />
+
+Verified VLAN creation and access-port assignment using show vlan brief, confirming correct segmentation and server placement in DMZ (VLAN 30) and Management (VLAN 99).
+
 Figure 6 - Inter-VLAN Routing Verification
 <img width="818" height="714" alt="image" src="https://github.com/user-attachments/assets/9a34a3cd-eede-4b2b-9458-5a8d536b71df" />
 
